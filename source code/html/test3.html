@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Centring Content Example</title>
+   </head>
+   <body>
+      <p>Here is a first paragraph of text.</p>
+      <p>Here is a second paragraph of text.</p>
+     <p>Here is a third paragraph of text.</p>
+
+ <p>Hello<br />
+         You delivered your assignment ontime.<br />
+         Thanks<br />
+         Mahnaz</p>
+
+<p>This text is not in the center.</p>
+         <center>
+         <p>This text is in the center.</p>
+      </center>
+
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Horizontal Line Example</title>
+   </head>
+   <body>
+      <p>This is paragraph one and should be on top</p>
+      <hr />
+      <p>This is paragraph two and should be at bottom</p>
+
+	<pre>
+         function testFunction( strText ){
+            alert (strText)
+         }
+      </pre>
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Nonbreaking Spaces Example</title>
+   </head>
+   <body>
+      <p>An example of this technique appears in the movie "12&nbsp;Angry&nbsp;Men."</p>
+
+ <p>Simple Image Insert</p>
+    <img src = "C:\Users\CloudIT\Desktop\14022018\earth.jpg" alt = “3.8 Billion miles from EARTH" />
+
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Tables</title>
+   </head>
+   <body>
+      <table border = "1">
+         <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+         </tr>
+	  <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+         </tr>
+      </table>
+   </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Unordered List</title>
+   </head>
+   <body>
+      <ul>
+         <li>Beetroot</li>
+         <li>Ginger</li>
+         <li>Potato</li>
+         <li>Radish</li>
+      </ul>
+   </body>
+</html>	
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Hyperlink Example</title>
+   </head>
+   <body>
+      <p>Click following link</p>
+      <a href = "https://www.google.com" target = "_self">Google</a>
+   </body>
+</html>
+
+
+<marquee attribute_name = "attribute_value"....more attributes>
+   One or more lines or text message or image
+</marquee>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Setting Font Size</title>
+   </head>
+   <body>
+      <font size = "1">Font size = "1"</font><br />
+      <font size = "2">Font size = "2"</font><br />
+      <font size = "3">Font size = "3"</font><br />
+      <font size = "4">Font size = "4"</font><br />
+      <font size = "5">Font size = "5"</font><br />
+      <font size = "6">Font size = "6"</font><br />
+      <font size = "7">Font size = "7"</font>
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML External CSS</title>
+      <link rel = "stylesheet" type = "text/css" href = "/html/style.css">
+   </head>
+   <body>
+      <p class = "red">This is red</p>
+      <p class = "thick">This is thick</p>
+      <p class = "green">This is green</p>
+      <p class = "thick green">This is thick and green</p>
+   </body>
+</html>
+
+<!DOCTYPE html> 
+<html>
+    <head> 
+      <title>HTML Internal CSS</title> 
+         <style type = "text/css"> 
+         .red { 
+            color: red; 
+         } 
+         .thick{ 
+            font-size:20px; 
+         } 
+         .green { 
+            color:green; 
+         } 
+      </style> 
+   </head>
+   <body> 
+      <p class = "red">This is red</p>  
+      <p class = "thick">This is thick</p>  
+      <p class = "green">This is green</p>  
+      <p class = "thick green">This is thick and green</p> 
+   </body>
+</html>
+
+
+<!DOCTYPE html> 
+<html>
+    <head> 
+      <title>HTML Inline CSS</title> 
+   </head>
+    <body> 
+      <p style = "color:red;">This is red</p>  
+      <p style = "font-size:20px;">This is thick</p>  
+      <p style = "color:green;">This is green</p>  
+      <p style = "color:green;font-size:20px;">This is thick and green</p> 
+   </body>
+ </html> 
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Javascript External Script</title>
+      <script src = "/html/script.js" type = "text/javascript"/></script>
+   </head>
+   <body>
+      <input type = "button" onclick = "Hello();" name = "ok" value = "Click Me" />
+   </body>
+</html>
+
+<h2>Welcome to JavaScript</h2>  
+<script>  
+document.write("Hello JavaScript by JavaScript");  
+</script> 
+
+<script type="text/javascript">  
+document.write("JavaScript is a simple language for java learners");  
+</script>
+
+
+
+<html>  
+<head>  
+<script type="text/javascript">  
+function msg(){  
+ alert("Hello JavaScript");  
+}  
+
+</script>  
+</head>  
+<body>  
+<p>Welcome to JavaScript</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>  
+</body>  
+</html>
+
+<html>  
+<head>  
+<script type="text/javascript" src="message.js"></script>  
+</head>  
+<body>  
+<p>Welcome to JavaScript</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>
+
+<hr />
+
+<script>  
+var a=20;  
+if(a>10){  
+document.write("value of a is greater than 10");  
+}  
+</script>  
+
+<hr />
+
+      <script type="text/javascript">
+         <!--
+            var age = 20;
+         
+            if( age > 18 ){
+               document.write("<b>Qualifies for driving</b>");
+            }
+            
+            else{
+               document.write("<b>Does not qualify for driving</b>");
+            }
+         //-->
+      </script>
+      
+      <p>Set the variable to different value and then try...</p>
+
+<hr />
+
+	<script type="text/javascript">
+         <!--
+            var book = "English";
+            if( book == "history" ){
+               document.write("<b>History Book</b>");
+            }
+		else if( book == "maths" ){
+               document.write("<b>Maths Book</b>");
+            }
+         
+            else if( book == "economics" ){
+               document.write("<b>Economics Book</b>");
+            }
+         
+            else{
+               document.write("<b>Unknown Book</b>");
+            }
+         //-->
+      </script>
+      
+      <p>Set the variable to different value and then try...</p>
+
+<hr />
+
+         <script type="text/javascript">
+         <!--
+            var grade='D';
+            document.write("Entering switch block<br />");
+            switch (grade)
+            {
+               case ('A'): document.write("Good job<br />");
+               break;
+		 case 'B': document.write("Pretty good<br />");
+               break;
+               case 'C': document.write("Passed<br />");
+               break;
+               case 'D': document.write("Not so good<br />");
+               break;
+               case 'F': document.write("Failed<br />");
+               break;
+              default:  document.write("Unknown grade<br />")
+            }
+            document.write("Exiting switch block");
+         //-->
+      </script>
+     <p>Set the variable to different value and then try...</p>
+
+<hr />
+
+        <script type="text/javascript">
+         <!--
+            var grade='A';
+            document.write("Entering switch block<br />");
+            switch (grade)
+            {
+               case 'A': document.write("Good job<br />");
+               case 'B': document.write("Pretty good<br />");
+               case 'C': document.write("Passed<br />");
+               case 'D': document.write("Not so good<br />");
+               case 'F': document.write("Failed<br />");
+               default: document.write("Unknown grade<br />")
+            }
+            document.write("Exiting switch block");
+         //-->
+      </script>
+       <p>Set the variable to different value and then try...</p>
+
+<hr/>
+
+<script type="text/javascript">
+         <!--
+            var count = 0;
+            document.write("Starting Loop");
+            while (count < 10){
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+            document.write("Loop stopped!");
+         //-->
+      </script>
+        <p>Set variable to different value and then try...</p>
+
+<hr/>
+
+      <script type="text/javascript">
+         <!--
+            var count = 0;
+            
+            document.write("Starting Loop" + "<br />");
+            do{
+               document.write("Current Count : " + count + "<br />");
+               count++;
+            }
+            
+            while (count < 5);
+            document.write ("Loop stopped!");
+         //-->
+      </script>
+
+<hr/>
+
+      <script type="text/javascript">
+         <!--
+            var count;
+            document.write("Starting Loop" + "<br />");
+         
+            for(count = 0; count < 10; count++){
+               document.write("Current Count : " + count );
+               document.write("<br />");
+            }
+         
+            document.write("Loop stopped!");
+         //-->
+      </script>
+
+<hr/>
+
+         <script type="text/javascript">
+         <!--
+            var aProperty;
+            document.write("Navigator Object Properties<br /> ");
+         
+            for (aProperty in navigator) {
+               document.write(aProperty);
+               document.write("<br />");
+            }
+            document.write ("Exiting from the loop!");
+         //-->
+      </script>
+
+<hr/>
+
+         <script type="text/javascript">
+         <!--
+         var x = 1;
+         document.write("Entering the loop<br /> ");
+        
+         while (x < 20)
+         {
+            if (x == 5){
+               break; // breaks out of loop completely
+            }
+            x = x + 1;
+            document.write( x + "<br />");
+         }
+	document.write("Exiting the loop!<br /> ");
+         //-->
+      </script>
+
+<hr/>
+
+        <script type="text/javascript">
+         <!--
+            var x = 1;
+            document.write("Entering the loop<br /> ");
+            while (x < 10)
+            {
+               x = x + 1;
+               
+               if (x == 5){
+                  continue; // skip rest of the loop body
+               }
+               document.write( x + "<br />");
+            }
+		document.write("Exiting the loop!<br /> ");
+         //-->
+      </script>
+
+<hr/>
+function
+        <script type="text/javascript">
+         function sayHello()          {
+            document.write ("Hello there!");
+         }
+      </script>
+      </head>
+   <body>
+      <p>Click the following button to call the function</p>
+        <form>
+         <input type="button" onclick="sayHello()" value="Say Hello">
+      </form>      
+
+<hr/>
+
+      <script type="text/javascript">
+         function sayHello(name, age)          {
+            document.write (name + " is " + age + " years old.");
+         }
+      </script>
+      
+   </head>
+   <body>
+      <p>Click the following button to call the function</p>
+      
+      <form>
+         <input type="button" onclick="sayHello('Bulma', 7)" value="Say Hello">
+      </form>
+      
+      <p>Use different parameters inside the function and then try...</p>
+
+<hr/>
+
+         <script type="text/javascript">
+         function concatenate(first, last) {
+            var full;
+            full = first + last;
+            return full;
+         }
+            function secondFunction()  {
+            var result;
+            result = concatenate('Zara', 'Ali');
+            document.write (result );
+         }
+      </script>
+        </head>
+      <body>
+      <p>Click the following button to call the function</p>
+         <form>
+         <input type="button" onclick="secondFunction()" value="Call Function">
+      </form>
+           <p>Use different parameters inside the function and then try...</p>
+
+<hr/>
+
+
+
+</body>  
+</html> 
